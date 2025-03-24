@@ -1,0 +1,29 @@
+/* .container {
+  padding: 20px;
+  text-align: center;
+}
+.movieList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.movieItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.movieImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 1.2rem;
+  padding: 10px;
+} */
