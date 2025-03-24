@@ -15,9 +15,8 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/movies" element={<MoviesPage />} />
         <Route path="/movies/:movieId" element={<MovieDetailsPage />}>
-          {/* Вложенные маршруты для cast и reviews */}
-          <Route path="cast" element={<MovieCast />} />
-          <Route path="reviews" element={<MovieReviews />} />
+        <Route path="cast" element={<MovieCast />} />
+        <Route path="reviews" element={<MovieReviews />} />
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

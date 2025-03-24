@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { fetchTrendingMovies } from "../../services/api";
+import style from "./HomePage.module.css";
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
@@ -16,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>Trending Today</h1>
+      <h1 className={style.home}>Trending Today</h1>
       <ul>
         {movies.map((movie) => (
           <li key={movie.id}>

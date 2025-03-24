@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #111; 
+  background: linear-gradient(to bottom, #000, #2a2a2a, #0f0f0f, #101d10);
 }
 
 h1 {
@@ -66,3 +68,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
