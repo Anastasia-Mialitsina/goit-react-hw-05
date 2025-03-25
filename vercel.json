@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/movies/:movieId", "destination": "/index.html" },
+    { "source": "/movies/:movieId/cast", "destination": "/index.html" },
+    { "source": "/movies/:movieId/reviews", "destination": "/index.html" }
+  ]
+}
