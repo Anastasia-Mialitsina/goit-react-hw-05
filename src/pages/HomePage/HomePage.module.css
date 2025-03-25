@@ -1,20 +1,11 @@
 .home {
   color: #122d17;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 
+               0 0 20px rgba(255, 255, 255, 0.6), 
+               0 0 30px rgba(255, 255, 255, 0.2);
 }
-/*font-size: 48px;
-  font-weight: bold;
-  background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8a2be2);
-  background-size: 200% 100%; 
-  background-clip: text;
-  color: transparent;
-  animation: rainbowText 7s linear infinite; 
-@keyframes rainbowText {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+.movieitem {
+  color: #65a455;
 }
-  */
 

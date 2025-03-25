@@ -5,9 +5,13 @@
 }
 .link {
   text-decoration: none;
-  color: black;
+  color: rgb(61, 82, 49);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+.link:hover {
+  color: #65a455;
 }
 .link.active {
   font-weight: bold;
-  color: blue;
+  color: #65a455;
 }

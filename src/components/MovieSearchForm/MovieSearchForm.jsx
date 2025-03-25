@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import style from './MovieSearchForm.module.css';
 
 const MovieSearchForm = ({ onSearch }) => {
   const [query, setQuery] = useState("");
@@ -11,12 +12,15 @@ const MovieSearchForm = ({ onSearch }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        className={style.input}
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search movies..."
       />
-      <button type="submit">Search</button>
+      <button type="submit" className={style.btn}>
+        Search
+      </button>
     </form>
   );
 };

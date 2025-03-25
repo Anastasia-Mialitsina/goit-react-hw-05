@@ -1,10 +1,10 @@
-// src/components/MovieList.jsx
 import React from "react";
+//import style from './MovieList.module.css';
 
 const MovieList = ({ movies }) => {
   return (
     <div>
-      <h2>Список популярных фильмов</h2>
+      <h2></h2>
       <ul>
         {movies.map((movie) => (
           <li key={movie.id}>

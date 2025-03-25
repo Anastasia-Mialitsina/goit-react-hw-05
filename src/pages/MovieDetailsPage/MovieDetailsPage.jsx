@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link, Outlet } from "react-router-dom";
 import { fetchMovieDetails } from "../../services/api";
-//import "./MovieDetailsPage.module.css";
+import "./MovieDetailsPage.module.css";
+import style from './MovieDetailsPage.module.css';
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();
@@ -19,8 +20,8 @@ const MovieDetailsPage = () => {
 
   return (
     <div>
-      <button>
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+      <button className={style.btn}>
+        <Link to="/" style={{ textDecoration: "none", color: "#122d17" }}>
           Go Back
         </Link>
       </button>
@@ -47,10 +48,14 @@ const MovieDetailsPage = () => {
           <h3>Additional Information</h3>
           <ul>
             <li>
-              <Link to="cast">Cast</Link>
+              <Link to="cast" className={style.ct}>
+                Cast
+              </Link>
             </li>
             <li>
-              <Link to="reviews">Reviews</Link>
+              <Link to="reviews" className={style.ct}>
+                Reviews
+              </Link>
             </li>
           </ul>
         </div>

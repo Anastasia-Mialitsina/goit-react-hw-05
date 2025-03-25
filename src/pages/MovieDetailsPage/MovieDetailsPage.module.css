@@ -1,1 +1,17 @@
-
+.btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 3px;
+  background-color: rgb(61, 82, 49);
+}
+.btn:hover {
+  background-color: #65a455;
+  border: none;
+}
+.ct {
+  color: rgb(61, 82, 49);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+.ct:hover {
+  color: #65a455;
+}

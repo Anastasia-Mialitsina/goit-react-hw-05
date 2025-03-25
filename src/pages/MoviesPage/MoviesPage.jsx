@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MovieSearchForm from "../../components/MovieSearchForm/MovieSearchForm"; 
 import { Link } from "react-router-dom";
+import style from './ MoviesPage.module.css';
 
 const MoviesPage = () => {
   const [movies, setMovies] = useState([]);
@@ -15,7 +16,7 @@ const MoviesPage = () => {
   
   return (
     <div>
-      <h1>Movies</h1>
+      <h1 className={style.title}>Movies</h1>
       <MovieSearchForm onSearch={handleSearch} />
       <ul>
         {movies?.length > 0 ? (

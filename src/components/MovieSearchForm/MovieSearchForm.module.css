@@ -1,0 +1,18 @@
+.input {
+  margin-right: 30px;
+  padding: 10px 10px;
+  background-color: rgb(61, 82, 49);
+  border: none;
+}
+.input:hover {
+  background-color: #65a455;
+}
+.btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(61, 82, 49);
+}
+.btn:hover {
+  background-color: #65a455;
+  border: none;
+}

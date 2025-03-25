@@ -18,12 +18,12 @@ const HomePage = () => {
   return (
     <div>
       <h1 className={style.home}>Trending Today</h1>
-      <ul>
+      <ul className={style.movieitem}>
         {movies.map((movie) => (
           <li key={movie.id}>
             <Link
               to={`/movies/${movie.id}`}
-              style={{ color: "blue", textDecoration: "underline" }}
+              style={{ color: "#3d5231", textDecoration: "underline" }}
             >
               {movie.title}
             </Link>
