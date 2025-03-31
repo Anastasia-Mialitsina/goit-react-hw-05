@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  padding: 50px;
+}
+.homeLink {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.homeLink:hover {
+  background-color: #cc0000;
+}
